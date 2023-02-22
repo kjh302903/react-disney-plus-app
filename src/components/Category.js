@@ -60,7 +60,7 @@ const Wrap = styled.div`
   overflow: hidden;
   position: relative;
   border: 3px solid rgba(249, 249, 249, .1);
-  -webkit-transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;  
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;  
   
   img {
     inset: 0;
@@ -69,7 +69,7 @@ const Wrap = styled.div`
     object-fit: cover;
     opacity: 1;
     position: absolute;
-    -webkit-transition: opacity 500ms ease-in-out 0s;
+    transition: opacity 500ms ease-in-out 0s;
     width: 100%;
     z-index: 1;
   }
